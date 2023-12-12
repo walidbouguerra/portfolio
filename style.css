@@ -6,16 +6,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 section{
-    padding: 75px 0;
+    padding: 50px 0;
 }
 a{
     text-decoration: none;
     font-weight: 600;
     color: black;
 }
-
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
 /* HEADER */
-header{
+header, .container{
     padding: 0 20%;
 }
 header nav {
@@ -42,22 +45,41 @@ header nav ul {
     transition: 0.15s;
 }
 .btn:hover {
-    background-color: white;
-    color: black;
+    background-color: #0f52ba;
+    border-color: #0f52ba;
+    color: white;
 }
 .outline {
     background-color: white;
     color: black;
 }
-.outline:hover{
-    background-color: black;
-    color: white;
-}
 .hero {
-    font-size: 1.8rem;
+    padding: 50px 0;
+    font-size: 1.4rem;
     line-height: 3.8rem;
 }
 .hero span {
-    font-size: 3rem;
+    font-size: 3.4rem;
     color: #0f52ba;
+}
+
+/* PROJETS */
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 2px;
+}
+.card-body {
+    padding: 20px;
+}
+
+.card-body p {
+    margin: 10px 0 20px;
+}
+
+.card-buttons {
+    display: flex;
+    gap: 10px;
 }
