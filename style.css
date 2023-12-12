@@ -5,10 +5,13 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 section{
     padding: 50px 0;
 }
-a{
+a, .header-logo{
     text-decoration: none;
     font-weight: 600;
     color: black;
@@ -32,7 +35,7 @@ header nav ul {
     gap: 10px;
     list-style: none;
 }
-.header-logo a{
+.header-logo{
     font-size: 1.6rem;
 }
 .btn {
@@ -64,6 +67,10 @@ header nav ul {
 }
 
 /* PROJETS */
+.cards-group {
+    display: flex;
+    justify-content: space-between;
+}
 .card{
     width: 30%;
     display: flex;
@@ -83,3 +90,5 @@ header nav ul {
     display: flex;
     gap: 10px;
 }
+
+/* CONTACT */
