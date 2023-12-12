@@ -45,7 +45,7 @@ header nav ul {
     border: 1px solid black;
     border-radius: 2px;
     text-transform: uppercase;
-    transition: 0.15s;
+    transition: 0.2s;
 }
 .btn:hover {
     background-color: #0f52ba;
@@ -78,12 +78,15 @@ header nav ul {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 2px;
 }
+.card:hover{    
+    border-bottom: 2px solid #0f52ba;
+}
 .card-body {
     padding: 20px;
 }
 
 .card-body p {
-    margin: 10px 0 20px;
+    margin: 15px 0 25px;
 }
 
 .card-buttons {
