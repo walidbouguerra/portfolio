@@ -45,7 +45,6 @@ header nav ul {
     border: 1px solid black;
     border-radius: 2px;
     text-transform: uppercase;
-    transition: 0.2s;
 }
 .btn:hover {
     background-color: #0f52ba;
@@ -77,9 +76,17 @@ header nav ul {
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 2px;
+    border-bottom: 2px solid transparent;
 }
 .card:hover{    
     border-bottom: 2px solid #0f52ba;
+}
+.tags {
+    margin-top: 5px;
+    color: #0f52ba;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
 }
 .card-body {
     padding: 20px;
