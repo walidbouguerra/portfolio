@@ -136,19 +136,20 @@ header nav ul {
 .socials-link {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-bottom: 2px solid transparent;
+    border-radius: 2px;
 }
 .socials-link:hover{
     border-bottom: 2px solid #0f52ba;
 }
 .link-container {
-    padding: 20px;
+    padding: 25px;
 }
 .link-header{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .link-container p {
     color: #0f52ba;
