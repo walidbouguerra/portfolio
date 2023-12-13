@@ -18,9 +18,13 @@ a, .header-logo{
 }
 h2 {
     font-size: 1.8rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 /* HEADER */
+.header-logo span {
+    color: #0f52ba;
+    font-size: 2.4rem;
+}
 header, .container{
     padding: 0 20%;
 }
@@ -28,7 +32,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 0;
+    padding: 15px 0;
 }
 header nav ul {
     display: flex;
@@ -57,7 +61,7 @@ header nav ul {
     color: black;
 }
 .hero {
-    padding: 70px 0;
+    padding: 85px 0 50px;
     font-size: 1.4rem;
     line-height: 3.8rem;
     display: flex;
@@ -115,7 +119,7 @@ header nav ul {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     padding: 10px 20px;
 }
 .card-buttons a:first-of-type{
