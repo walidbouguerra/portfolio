@@ -74,7 +74,7 @@ header nav ul {
     width: 30%;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 2px;
     border-bottom: 2px solid transparent;
 }
@@ -100,5 +100,14 @@ header nav ul {
     display: flex;
     gap: 10px;
 }
-
+.card-buttons a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+}
+.card-buttons a:first-of-type{
+    align-items: end;
+}
 /* CONTACT */
