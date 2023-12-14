@@ -137,9 +137,11 @@ header nav ul {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-bottom: 2px solid transparent;
     border-radius: 2px;
+    transition: 0.2s;
 }
 .socials-link:hover{
     border-bottom: 2px solid #0f52ba;
+    transform: scale(1.1);
 }
 .link-container {
     padding: 25px;
