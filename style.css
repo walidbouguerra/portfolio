@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 /* GENERAL */
 * {
     margin: 0;
@@ -12,15 +13,34 @@ html {
 section{
     padding: 50px 0;
 }
-a, .header-logo{
-    text-decoration: none;
-    font-weight: 600;
-    color: black;
-}
 h2 {
     font-size: 1.8rem;
     margin-bottom: 25px;
 }
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.btn {
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.btn:hover {
+    background-color: #0f52ba;
+    border-color: #0f52ba;
+    color: white;
+}
+.outline {
+    background-color: white;
+    color: black;
+}
+
 /* HEADER */
 .header-logo span {
     color: #0f52ba;
@@ -43,24 +63,7 @@ header nav ul {
 .header-logo{
     font-size: 1.6rem;
 }
-.btn {
-    padding: 10px 30px;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    border-radius: 2px;
-    text-transform: uppercase;
-    transition: 0.2s;
-}
-.btn:hover {
-    background-color: #0f52ba;
-    border-color: #0f52ba;
-    color: white;
-}
-.outline {
-    background-color: white;
-    color: black;
-}
+
 /* HERO */
 .hero {
     padding: 85px 0 50px;
@@ -71,7 +74,7 @@ header nav ul {
     justify-content: center;
     gap: 60px;
 }
-.hero img {
+.avatar img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -82,18 +85,21 @@ header nav ul {
     color: #0f52ba;
 }
 
-/* PROJETS */
+/* PROJECTS */
 .cards-group {
     display: flex;
     justify-content: space-between;
 }
-.card{
+.card {
     width: 30%;
     display: flex;
     flex-direction: column;
+}
+.card, .socials-link {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 2px;
     border-bottom: 2px solid transparent;
+    border-radius: 2px;
+    transition: 0.2s;
 }
 .card:hover{    
     border-bottom: 2px solid #0f52ba;
@@ -130,16 +136,11 @@ header nav ul {
 .card-body p {
     font-size: 1.05rem;
 }
+
 /* CONTACT */
 .socials {
     display: flex;
     justify-content: space-between;
-}
-.socials-link {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-bottom: 2px solid transparent;
-    border-radius: 2px;
-    transition: 0.2s;
 }
 .socials-link:hover{
     border-bottom: 2px solid #0f52ba;
