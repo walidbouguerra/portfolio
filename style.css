@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+/* GENERAL */
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +61,7 @@ header nav ul {
     background-color: white;
     color: black;
 }
+/* HERO */
 .hero {
     padding: 85px 0 50px;
     font-size: 1.4rem;
