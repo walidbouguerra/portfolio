@@ -47,7 +47,7 @@ a{
     font-size: 2.4rem;
 }
 header, .container{
-    padding: 0 20%;
+    padding: 0 18%;
 }
 header nav {
     display: flex;
@@ -75,8 +75,8 @@ header nav ul {
     gap: 60px;
 }
 .avatar img {
-    height: 300px;
     width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -89,6 +89,8 @@ header nav ul {
 .cards-group {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .card {
     width: 30%;
@@ -121,6 +123,7 @@ header nav ul {
 
 .card-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .card-buttons a{
@@ -140,7 +143,7 @@ header nav ul {
 /* CONTACT */
 .socials {
     display: flex;
-    justify-content: space-between;
+    gap: 25px;
 }
 .socials-link:hover{
     border-bottom: 2px solid #0f52ba;
@@ -159,4 +162,128 @@ header nav ul {
 .link-container p {
     color: #0f52ba;
     font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 1603px) {
+    header, .container{
+        padding: 0 12%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    header, .container{
+        padding: 0 8%;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    .hero {
+        line-height: 3.2rem;
+    }
+    .hero span {
+        font-size: 2.6rem;
+    }
+    .avatar img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .card {
+        width: 31%;
+    }
+    .card-buttons a {
+        padding: 8px 10px;
+    }
+
+    .link-container {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    header, .container{
+        padding: 0 5%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .hero {
+        line-height: 3rem;
+    }
+    .hero span {
+        font-size: 2.4rem;
+    }
+    .avatar img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 964px) {
+    section {
+        text-align: center;
+    }
+    .cards-group, .socials {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .card {
+        width: 50%;
+    }
+    .card-buttons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        padding: 8px 20px;
+    }
+    header, .container{
+        padding: 0 3%;
+    }
+    .hero {
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+        line-height: 2.6rem;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+    .hero span {
+        font-size: 2rem;
+    }
+    .avatar {
+        order: -1;
+    }
+    .avatar img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hero {
+        padding: 65px 0 30px;
+    }
+    section{
+        padding: 30px 0;
+    }
+    .card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        width: 90%;
+    }
 }
