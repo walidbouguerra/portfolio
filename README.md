@@ -10,7 +10,7 @@ Pour présenter mon portfolio je dois concevoir un site web avec comme fonctionn
 - mes coordonnées pour me contacter
 
 ## Conception
-### Architecture
+### Structure
 Le site sera composé de trois sections :
 - le header avec une navigation et une brève phrase de présentation
 - les projets présentés avec une image, une description et des liens
